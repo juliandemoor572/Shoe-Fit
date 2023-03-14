@@ -47,5 +47,6 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
+		<h2></h2>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->
