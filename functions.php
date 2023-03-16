@@ -1,4 +1,5 @@
 <?php 
+// Enqueue CSS & JS
 function my_assets() { // maak een functie
 
     // functie voor het plaatsen van css.
@@ -18,4 +19,17 @@ function my_assets() { // maak een functie
 add_action( 'wp_enqueue_scripts', 'my_assets' ); // voer de 'my_assets' functie uit
 
 add_theme_support( 'post-thumbnails' ); // in je functions houden vanwege gebruik _underscore
+
+
+// Register menu's
+function register_my_menus()
+{
+    register_nav_menus(
+        array(
+            'header-navigation' => __('Header Navigation'),
+            'footer-navigation' => __('Footer Navigation')
+        )
+    );
+}
+add_action('init', 'register_my_menus');
 ?>

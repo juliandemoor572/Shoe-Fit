@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --fullscreen-height: 100px;
+}
+
+section {
+    margin-bottom: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: $color-black;
+}
+
+img {
+    width: 100%;
+}
+
+.arrow-prev,
+.arrow-next {
+    border: none;
+
+}
+.slick-next,
+.slick-prev {
+    right: 0 !important;
+    display: none !important;
+}

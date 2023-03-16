@@ -1,0 +1,49 @@
+// =============================================
+// Colors
+// =============================================
+
+$color-white: #ffffff;
+$color-black: #27303F;
+
+// =============================================
+// Fonts
+// =============================================
+
+@font-face {
+    font-family: "Cirka Regular";
+    src: url(fonts/Cirka-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Cirka Bold";
+    src: url(fonts/Cirka-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Poppins Medium";
+    src: url(fonts/Poppins-Medium.ttf);
+}
+  
+$font-cirka-bold: "Cirka Bold", serif;
+$font-cirka: "Cirka Regular", serif;
+$font-poppins: "Poppins Medium", serif;
+
+$font-size-default: 16;
+$line-height-default: 32;
+
+// =============================================
+// Layout breakpoints
+// =============================================
+
+$phone-small: 376px;
+$phone: 400px;
+$phone-wide: 560px;
+$phablet: 560px;
+$tablet-small: 640px;
+$tablet: 768px;
+$origin-break: 780px;
+$tablet-halfwide: 880px;
+$tablet-wide: 1024px;
+$desktop-small: 1180px;
+$desktop: 1248px;
+$desktop-wide: 1140px;

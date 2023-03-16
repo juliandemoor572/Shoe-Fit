@@ -25,7 +25,6 @@ gulp.task('sass', function () {
 
 gulp.task('scripts', function (callback) {
   return gulp.src([
-    'js/vendors/jquery.fitvids.js', // Volgorde is belangrijk. Voeg eerst deze toe in scripts.js ...
     'js/init.js'                    // ... daarna pas deze
   ])
     .pipe(concat('scripts.js'))
