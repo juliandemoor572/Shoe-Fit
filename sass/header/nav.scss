@@ -1,0 +1,14 @@
+nav{
+    padding: 1.5rem;
+    &#site-navigation{
+
+    }
+    &.main-navigation{
+        .menu-main-navigation-container{
+            .menu{
+                display: flex;
+                gap: 1.5rem;
+            }
+        }
+    }
+}

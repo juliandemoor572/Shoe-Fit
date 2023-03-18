@@ -1,15 +1,15 @@
 /*!
 Theme Name: Shoe-Fit
-Theme URI: http://underscores.me/
-Author: Julian de Moor
-Author URI: http://underscores.me/
-Description: Description
+Theme URI: https://underscores.me/
+Author: Automattic
+Author URI: https://automattic.com/
+Description: Hi. I'm a starter theme called <code>Shoe-Fit</code>, or <em>underscores</em>, if you like. I'm a theme meant for hacking so don't use me as a <em>Parent Theme</em>. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
 Version: 1.0.0
 Tested up to: 5.4
 Requires PHP: 5.6
 License: GNU General Public License v2 or later
 License URI: LICENSE
-Text Domain: shoefit
+Text Domain: Shoe-Fit
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 
 This theme, like WordPress, is licensed under the GPL.
@@ -22,5 +22,5 @@ Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 */
 
-@font-face{font-family:"Cirka Regular";src:url(fonts/Cirka-Regular.ttf)}@font-face{font-family:"Cirka Bold";src:url(fonts/Cirka-Bold.ttf)}@font-face{font-family:"Poppins Medium";src:url(fonts/Poppins-Medium.ttf)}*{margin:0;padding:0;box-sizing:border-box}:root{--fullscreen-height: 100px}section{margin-bottom:150px}a{text-decoration:none;color:#27303f}img{width:100%}.arrow-prev,.arrow-next{border:none}.slick-next,.slick-prev{right:0 !important;display:none !important}html{scroll-behavior:smooth}h3{color:#27303f;line-height:1.4em}h6{font-size:.9em}button{border:none;background:none;padding-bottom:5px}button.big-button a{font-size:1.25em}button.normal-button a{font-size:1em}button.blue-button{margin-top:50px;width:100%;border:none;padding:10px 0;background-color:#27303f}button.blue-button a{width:100%;display:block;color:#fff}input,textarea,button,select,a{-webkit-tap-highlight-color:rgba(0,0,0,0)}header{background-color:#d3d3d3}
+@font-face{font-family:"PoliteType";src:url(../../fonts/PoliteType-Regular.ttf)}@font-face{font-family:"Apercu Pro Regular";src:url(../../fonts/apercu_pro_regular.otf) format("opentype")}*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}:root{--fullscreen-height: 100px}section{margin-bottom:150px}ul,ol{list-style-type:none}a{text-decoration:none;color:#27303f}img{width:100%}.arrow-prev,.arrow-next{border:none}.slick-next,.slick-prev{right:0 !important;display:none !important}html{scroll-behavior:smooth}h1,h2,h3,h4,h5,h6{font-family:"PoliteType",sans-serif}a,h6,p{font-family:"Apercu Pro Regular",sans-serif}h3{color:#27303f;line-height:1.4em}h6{font-size:.9em}button{border:none;background:none;padding-bottom:5px}button.big-button a{font-size:1.25em}button.normal-button a{font-size:1em}button.blue-button{margin-top:50px;width:100%;border:none;padding:10px 0;background-color:#27303f}button.blue-button a{width:100%;display:block;color:#fff}input,textarea,button,select,a{-webkit-tap-highlight-color:rgba(0,0,0,0)}header{background-color:#f08080}nav{padding:1.5rem}nav.main-navigation .menu-main-navigation-container .menu{display:flex;gap:1.5rem}
 /*# sourceMappingURL=style.css.map */

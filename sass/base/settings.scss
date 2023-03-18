@@ -10,23 +10,17 @@ $color-black: #27303F;
 // =============================================
 
 @font-face {
-    font-family: "Cirka Regular";
-    src: url(fonts/Cirka-Regular.ttf);
+    font-family: "PoliteType";
+    src: url(../../fonts/PoliteType-Regular.ttf);
 }
 
 @font-face {
-    font-family: "Cirka Bold";
-    src: url(fonts/Cirka-Bold.ttf);
-}
-
-@font-face {
-    font-family: "Poppins Medium";
-    src: url(fonts/Poppins-Medium.ttf);
+    font-family: "Apercu Pro Regular";
+    src: url(../../fonts/apercu_pro_regular.otf) format("opentype");
 }
   
-$font-cirka-bold: "Cirka Bold", serif;
-$font-cirka: "Cirka Regular", serif;
-$font-poppins: "Poppins Medium", serif;
+$font-polite: "PoliteType", sans-serif;
+$font-apercu: "Apercu Pro Regular", sans-serif;
 
 $font-size-default: 16;
 $line-height-default: 32;
